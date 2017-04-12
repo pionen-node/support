@@ -1,0 +1,7 @@
+{
+  "presets": ["react-native"],
+  "plugins": [
+    ["babel-plugin-transform-builtin-extend", {"globals": ["Array", "Error"]}],
+    ["babel-plugin-transform-export-extensions"]
+  ]
+}
